@@ -819,3 +819,9 @@ button {
   font-size: 0.8rem;
   opacity: 0.75;
 }
+
+.footer{
+  margin-bottom: 8rem;
+  text-align: center;
+  align-items: center;
+}

@@ -14,6 +14,7 @@ import CreateListing from './pages/CreateListing';
 import EditListing from './components/EditListing';
 import Listing from './pages/Listing';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path='/category/:categoryName/:listingId' element={<Listing />}/>
           <Route path='/contact/:landlordId' element={<Contact />} />
         </Routes>
+        <Footer />
         <Navbar />
       </Router>
       <ToastContainer />
